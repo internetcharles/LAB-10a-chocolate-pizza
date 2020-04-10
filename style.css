@@ -72,10 +72,6 @@ header ul {
     width: 100%;
 }
 
-.ingredients-list {
-    columns: 2 auto;
-}
-
 #page-footer {
     text-align: center;
 }

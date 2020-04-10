@@ -1,3 +1,11 @@
+/* typography */
+
+article {
+    font-size: 1.25em;
+}
+
+/* other stuff */
+
 .article-title {
     font-size: 2em;
     font-family: sans-serif;
@@ -16,15 +24,25 @@ article p {
 }
 
 .ingredients {
-    width: 100%;
+    margin: auto;
+    max-width: 899px;
     height: 305px;
     background-image: url('./lab-assets/list-bg.png');
-    background-position: center;
+    background-position: left center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-inline-start: 40px;
 }
 
 .ingredients-list {
+    columns: 2 200px;
     list-style-type: '\2610';
+}
+
+.ingredients-list li {
+    margin: 0 auto 1em 0;
 }
 
 .checked {
