@@ -1,26 +1,58 @@
 /* typography */
 
+@font-face {
+    font-family: 'BenchNine Light';
+    src: url('./lab-assets/fonts/BenchNine-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BenchNine Bold';
+    src: url('./lab-assets/fonts/BenchNine-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Patrick Hand';
+    src: url('./lab-assets/fonts/PatrickHand-Regular.ttf') format('truetype');
+}
+
+section {
+    margin: 3em auto;
+}
+
 article {
     font-size: 1.25em;
+}
+
+.byline, .post-date, .print-page {
+    font-family: 'BenchNine Light';
+}
+
+.article-title {
+    font-family: 'BenchNine Bold';
+}
+
+.ingredients-list li {
+    font-family: 'Patrick Hand';
 }
 
 /* other stuff */
 
 .article-title {
-    font-size: 2em;
-    font-family: sans-serif;
+    font-size: 3em;
     margin: 0
 }
 
 .post-date {
+    font-size: 1.25em;
     color: gray;
     text-transform: uppercase;
-    font-family: sans-serif;
     margin-block-end: 1em;
 }
 
 article p {
     text-indent: 2em;
+    margin: 2em auto;
+    color: gray;
 }
 
 .ingredients {
