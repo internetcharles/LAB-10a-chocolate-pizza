@@ -14,6 +14,12 @@ html, body {
     padding: 0;
 }
 
+.hr {
+    height: 15px;
+    width: 100%;
+    background-image: url('./lab-assets/hr-img.png');
+}
+
 .space-apart {
     width: 100%;
     display: grid;
@@ -31,6 +37,7 @@ header {
 
 .logo-img {
     float: left;
+    margin-inline-end: 10px;
 }
 
 .delicious {
@@ -40,8 +47,8 @@ header {
 .cursive-text {
     font-family: 'Pacifico';
     font-style: italic;
-    font-size: 1.25em;
-    margin: 0;
+    font-size: 1.75em;
+    margin: 0 0 -10px 0;
 }
 
 .byline {
