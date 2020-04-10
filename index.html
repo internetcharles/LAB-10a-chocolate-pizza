@@ -11,21 +11,29 @@
 
 <body>
 
-<header>
+<div id="page-wrapper">
+
+<header class="space-apart">
     <div class='delicious'>
-        <p class='cursive-text'>Delicious</p>
-        <p class='byline'>The best food blog on the web.</p>
+        <div class="logo-elements">
+            <img class="logo-img" src="./lab-assets/logo.png" />
+            <div>
+                <p class='cursive-text'>Delicious</p>
+                <p class='byline'>The best food blog on the web.</p>
+            </div>
+        </div>
     </div>
+    <div></div>
     <div id='icons'>
         <ul>
-            <li><img src="./lab-assets/fb-icon.png"/></li>
-            <li><img src="./lab-assets/twit-icon.png"/></li>
-            <li><img src="./lab-assets/gp-icon.png"/></li>
-            <li><img src="./lab-assets/insta-icon.png"/></li>
-            <li><img src="./lab-assets/flic-icon.png"/></li>
-            <li><img src="./lab-assets/pint-icon.png"/></li>
-            <li><img src="./lab-assets/rss-icon.png"/></li>
-            <li><img src="./lab-assets/mail-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/fb-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/twit-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/gp-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/insta-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/flic-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/pint-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/rss-icon.png"/></li>
+            <li><img class="icon-img" src="./lab-assets/mail-icon.png"/></li>
         </ul>
     </div>
     <div class='hr'></div>
@@ -35,13 +43,15 @@
     <section>
         <header>
             <h1 class='article-title'>Chocolate Pizza</h1>
-            <div class='post-date'>Posted on 15 Dec 2013 / Desserts</div>
-            <div class='print-page'>
-                <img src='./lab-assets/print-icon.png'>Print</img>
+            <div class='post-date'>
+                Posted on 15 Dec 2013 / Desserts
+                <div class='print-page'>
+                    <img src='./lab-assets/print-icon.png'>Print</img>
+                </div>
             </div>
         </header>
         <article>
-            <img src='./lab-assets/choco-pizza.png'></img>
+            <img src='./lab-assets/choco-pizza.png' class='full-size-img'></img>
             <div class='article-text'>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam voluptatum numquam maxime eius consectetur dolores repellendus, ullam quasi itaque, deleniti ratione excepturi, vero voluptate minima cumque. Repellat, voluptas libero.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ab iure necessitatibus excepturi quo quos cupiditate facere. Ipsa accusamus consectetur reiciendis beatae nesciunt cumque quibusdam aspernatur et vitae. Distinctio, rem?</p>
@@ -64,7 +74,7 @@
                 </ul>
             </div>
         </article>
-        <footer>
+        <footer class="space-apart">
             <img class='author-pic' src='./lab-assets/van-pic.png'/>
             <div class='bio'>
                 <p class='author-name'>Vanessa Stevenson</p>
@@ -75,7 +85,7 @@
     </section>
 </main>
 
-<footer>
+<footer id="page-footer">
     <div class='hr'></div>
     <img src='./lab-assets/logo.png'/>
     <div class='footer-text'>
@@ -83,6 +93,8 @@
         <p>Proudly published with Ghost.</p>
     </div>
 </footer>
+
+</div>
 
 </body>
 

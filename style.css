@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./lab-assets/fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.space-apart {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#page-wrapper {
+    margin: auto;
+    width: 50%;
+}
+
+.logo-img {
+    float: left;
+}
+
+.cursive-text {
+    font-family: 'Pacifico';
+    font-style: italic;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+.icon-img {
+    padding: 1px;
+}
+
+.print-page {
+    float: right;
+}
+
+.full-size-img {
+    width: 100%;
+}
+
+.ingredients-list {
+    columns: 2 auto;
+}
+
+#page-footer {
+    text-align: center;
+}
