@@ -22,3 +22,12 @@ article p {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.ingredients-list {
+    list-style-type: '\2610';
+}
+
+.checked {
+    list-style-type: '\2611';
+    text-decoration: line-through;
+}
