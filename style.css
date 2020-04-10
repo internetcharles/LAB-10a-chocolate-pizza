@@ -1,3 +1,5 @@
+@import url('./article-styles.css');
+
 @font-face {
     font-family: 'Pacifico';
     src: url('./lab-assets/fonts/Pacifico-Regular.ttf') format('truetype');
@@ -15,7 +17,7 @@ html, body {
 .space-apart {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 #page-wrapper {
@@ -23,20 +25,39 @@ html, body {
     width: 50%;
 }
 
+header {
+    margin-block-end: 2em;
+}
+
 .logo-img {
     float: left;
+}
+
+.delicious {
+    margin-block-start: 1em;
 }
 
 .cursive-text {
     font-family: 'Pacifico';
     font-style: italic;
-    font-size: 1.5em;
-    margin-top: 1em;
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.byline {
+    font-size: .7em;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: gray;
 }
 
 header ul {
+    margin-block-start: 1em;
     list-style: none;
     display: flex;
+    float: right;
+    padding-inline-start: 0;
 }
 
 .icon-img {
