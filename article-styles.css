@@ -31,9 +31,9 @@ article p {
     background-position: left center;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    padding-inline-start: 40px;
+    padding: 17px 40px;
 }
 
 .ingredients-list {
@@ -42,7 +42,7 @@ article p {
 }
 
 .ingredients-list li {
-    margin: 0 auto 1em 0;
+    line-height: 1.5em;
 }
 
 .checked {
